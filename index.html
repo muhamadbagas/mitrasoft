@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"
+    ></script>
+    <link rel="icon" href="/img/icon.png" />
+    <title>Mitrasoft - Mitra Strategis Keuangan Syariah</title>
+  </head>
+  <body>
+    <!-- Header/Navigation Bar Start -->
+    <header class="absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container lg:px-0 mb-5 lg:mb-0">
+        <div class="flex items-center justify-between relative mt-5 lg:mt-0">
+          <div class="px-4">
+            <a href="#"><img src="/img/logo.png" alt="Logo Mitrasoft" /></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute mt-5 lg:mt-0 py-5 bg-white shadow-lg rounded-lg w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base capitalize font-medium text-dark py-3 mx-8 flex group-hover:text-secondary"
+                    >Home
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#product"
+                    class="text-base capitalize font-medium text-dark py-3 mx-8 flex group-hover:text-secondary"
+                    >Product
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base capitalize font-medium text-dark py-3 mx-8 flex group-hover:text-secondary"
+                    >Contact
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base capitalize font-medium text-dark py-3 mx-8 flex group-hover:text-secondary"
+                    >About
+                  </a>
+                </li>
+                <li class="group lg:mr-7">
+                  <a
+                    href="#event"
+                    class="text-base capitalize font-medium text-dark py-3 mx-8 flex group-hover:text-secondary"
+                    >Event
+                  </a>
+                </li>
+                <li class="group overflow-hidden flex justify-center">
+                  <button
+                    class="w-11/12 lg:w-full my-3 lg:my-0 mx-4 lg:mx-0 bg-secondary rounded-lg hover:opacity-80 transition duration-400 ease-in-out"
+                  >
+                    <a
+                      href="/forum.html"
+                      class="text-base capitalize font-medium text-white py-3 mx-8 flex justify-center"
+                      >Forum
+                    </a>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header/Navigation Bar End -->
+
+    <!-- Home Section Start -->
+    <section id="home" class="pt-28 pb-12 lg:pt-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <!-- Home Left Start -->
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-3xl font-bold text-dark mb-4 md:text-5xl lg:mt-20">
+              Mitrasoft Global Perdana
+            </h1>
+            <h2
+              class="text-xl font-bold text-secondary mb-4 md:text-2xl lg:mt-7"
+            >
+              IT Consultant Company
+            </h2>
+            <p class="text-base md:text-lg text-black mb-4 md:mb-6 lg:mt-7">
+              Mitrasoft Global Perdana is an IT consulting company with over 15
+              years of experience, specializing in providing Core Banking
+              Systems (CBS) for Sharia Banking industry.
+            </p>
+          </div>
+          <!-- Home Left End -->
+
+          <!-- Home Right Start -->
+          <div class="w-full self-end px-4 mb-4 lg:mb-0 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-20 lg:right-0">
+              <img
+                src="/img/home.png"
+                alt="Home Vector"
+                class="max-w-full mx-auto"
+              />
+            </div>
+          </div>
+          <!-- Home Right End -->
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Profile Section Start -->
+    <section id="profile" class="mt-2 lg:mt-0 pt-12 lg:pt-16 pb-8 lg:pb-0">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <!-- Profile Section Left Start -->
+          <div class="w-full self-start px-4 mb-4 lg:mb-10 lg:w-1/2">
+            <h1
+              class="text-3xl font-bold text-dark text-center md:text-left mb-12 lg:mb-4 md:text-4xl lg:mt-20 flex justify-center"
+            >
+              Our Company Values
+            </h1>
+            <div class="my-4 lg:mt-14">
+              <img
+                src="/img/profile.png"
+                alt="profile"
+                class="max-w-full mx-auto"
+              />
+            </div>
+          </div>
+          <!-- Profile Section Left End -->
+
+          <!-- Profile Section Right Start -->
+          <div class="w-full self-start mb-10 lg:w-1/2 lg:mt-16">
+            <div class="w-full self-center">
+              <div class="flex flex-wrap justify-center">
+                <div class="card">
+                  <div class="flex justify-center">
+                    <div
+                      class="block rounded-lg bg-white hover:bg-orange text-orange hover:text-white fill-orange hover:fill-white ease-in-out duration-700 py-14 lg:py-8 px-6 shadow-lg"
+                    >
+                      <svg
+                        width="90"
+                        height="100"
+                        class="mx-auto my-3"
+                        viewBox="0 0 90 100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M46.0112 15.8416C32.9081 15.8416 22.2472 24.2809 22.2472 34.6535C22.2472 45.0261 32.9081 53.4653 46.0112 53.4653C59.1144 53.4653 69.7753 45.0261 69.7753 34.6535C69.7753 24.2809 59.1144 15.8416 46.0112 15.8416ZM46.0112 50.5712C34.9262 50.5712 25.9032 43.4314 25.9032 34.6535C25.9032 25.8756 34.9262 18.7357 46.0112 18.7357C57.0963 18.7357 66.1193 25.8756 66.1193 34.6535C66.1193 43.4314 57.0963 50.5712 46.0112 50.5712Z"
+                        />
+                        <path
+                          d="M84.0936 21.9045C84.9437 19.1622 84.5418 16.7623 82.9112 14.9103C81.2921 13.0731 78.5795 11.9089 75.009 11.501C73.9386 5.95682 68.7336 3.17283 61.5115 4.50378C57.7285 -0.370446 51.2136 -1.40365 45 1.9699C38.7826 -1.40365 32.2754 -0.370446 28.4885 4.50676C21.2509 3.1758 16.0575 5.9598 14.9872 11.504C11.4205 11.9119 8.70405 13.0761 7.08497 14.9103C5.45816 16.7623 5.05629 19.1622 5.90641 21.9045C2.79577 23.3367 0.840507 25.2304 0.214514 27.4368C-0.434663 29.7265 0.396129 32.1949 2.61802 34.6305C0.396129 37.0661 -0.434663 39.5345 0.214514 41.8243C0.840507 44.0306 2.79577 45.9243 5.90641 47.3565C5.05629 50.0988 5.45816 52.4987 7.08884 54.3508C8.70791 56.1879 11.4205 57.3521 14.991 57.76C16.0575 63.3042 21.2548 66.0852 28.4885 64.7573C32.2831 69.6345 38.7903 70.6677 45 67.2911C47.4653 68.6281 49.9268 69.3069 52.338 69.3069C56.009 69.3069 59.2239 67.702 61.5115 64.7573C68.7336 66.0852 73.9386 63.3042 75.009 57.76C78.5795 57.3521 81.2921 56.1879 82.9112 54.3508C84.5418 52.4987 84.9398 50.1018 84.0936 47.3565C87.2042 45.9243 89.1595 44.0306 89.7855 41.8243C90.4347 39.5345 89.6039 37.0661 87.382 34.6305C89.6039 32.1949 90.4347 29.7265 89.7855 27.4368C89.1595 25.2304 87.2042 23.3367 84.0936 21.9045ZM83.4599 35.5744C85.6006 37.5842 86.4778 39.5256 86.0063 41.19C85.4345 43.2177 82.9498 44.5338 80.9675 45.2782C80.0981 45.6027 79.6769 46.3739 79.9744 47.0796C80.67 48.7083 81.1839 51.004 79.7116 52.6774C78.2471 54.3388 75.3258 54.8123 73.1349 54.9135C72.1611 54.9582 71.3844 55.5567 71.3226 56.307C71.1101 58.954 69.8387 62.1102 64.9776 62.1102C63.8223 62.1102 62.5355 61.9316 61.1521 61.5832C60.2286 61.345 59.2355 61.6755 58.8143 62.3454C57.6628 64.1617 55.6071 66.3264 52.338 66.3264C50.4716 66.3264 48.3579 65.6148 46.2249 64.266C45.8656 64.0397 45.4328 63.9295 45 63.9295C44.5672 63.9295 44.1306 64.0426 43.7751 64.266C41.6421 65.6148 39.5284 66.3234 37.662 66.3264C34.3929 66.3264 32.3372 64.1617 31.1857 62.3454C30.7606 61.6755 29.7714 61.348 28.8479 61.5832C27.4645 61.9345 26.1777 62.1102 25.0224 62.1102C20.1613 62.1102 18.8899 58.954 18.6774 56.307C18.6156 55.5567 17.8389 54.9582 16.8651 54.9135C14.6742 54.8093 11.7529 54.3388 10.2884 52.6774C8.81225 51.004 9.33004 48.7083 10.0256 47.0796C10.3231 46.3739 9.90194 45.6027 9.0325 45.2782C7.05019 44.5338 4.56941 43.2177 3.99365 41.19C3.52223 39.5256 4.39939 37.5842 6.54013 35.5744C7.12361 35.0265 7.12361 34.2345 6.54013 33.6866C4.39939 31.6768 3.52223 29.7354 3.99365 28.071C4.56555 26.0433 7.05019 24.7272 9.0325 23.9828C9.90194 23.6583 10.3231 22.8871 10.0256 22.1814C9.33004 20.5527 8.81611 18.257 10.2884 16.5837C11.7529 14.9222 14.6742 14.4488 16.8651 14.3475C17.8389 14.3029 18.6156 13.7044 18.6774 12.954C18.8861 10.304 20.1574 7.15082 25.0185 7.15082C26.1739 7.15082 27.4606 7.32947 28.844 7.67784C29.7637 7.90711 30.7567 7.58256 31.1818 6.91559C32.3333 5.09929 34.389 2.93462 37.6581 2.93462C39.5245 2.93462 41.6382 3.64625 43.7712 4.99508C44.4899 5.44469 45.5062 5.44469 46.2249 4.99508C48.3579 3.64625 50.4716 2.93462 52.338 2.93462C55.6071 2.93462 57.6628 5.09929 58.8143 6.91559C59.2355 7.58256 60.2286 7.90711 61.1521 7.67784C62.5355 7.32649 63.8223 7.15082 64.9776 7.15082C69.8387 7.15082 71.1101 10.307 71.3226 12.954C71.3844 13.7044 72.1611 14.3029 73.1349 14.3475C75.3258 14.4517 78.2471 14.9222 79.7116 16.5837C81.1878 18.257 80.67 20.5527 79.9744 22.1814C79.6769 22.8871 80.0981 23.6583 80.9675 23.9828C82.9498 24.7272 85.4306 26.0433 86.0063 28.071C86.4778 29.7354 85.6006 31.6768 83.4599 33.6866C82.8764 34.2345 82.8764 35.0265 83.4599 35.5744Z"
+                        />
+                        <path
+                          d="M17.1427 60C15.9599 60 15 60.9854 15 62.1995V92.7548C15 95.2666 16.3885 97.5409 18.6855 98.6934C21.2053 99.9515 24.0936 99.648 26.2621 97.906L44.8479 82.9934L63.6094 98.0467C64.8907 99.0761 66.4292 99.604 67.9934 99.604C69.0733 99.604 70.2089 99.3488 71.2374 98.8341C73.5344 97.686 75 95.4074 75 92.8955V62.1995C75 60.9854 74.0401 60 72.8573 60C71.6745 60 70.7146 60.9854 70.7146 62.1995V92.8911C70.7146 94.0877 69.7547 94.6771 69.3561 94.8795C68.5462 95.2798 67.3805 95.4161 66.3392 94.5803L57.8541 87.7267V71.3054C57.8541 70.0912 56.8942 69.1059 55.7114 69.1059C54.5286 69.1059 53.5687 70.0912 53.5687 71.3054V84.2911L46.2321 78.4669C45.4607 77.8422 44.355 77.8422 43.588 78.4669L36.427 84.1988V71.3054C36.427 70.0912 35.4671 69.1059 34.2843 69.1059C33.1016 69.1059 32.1416 70.0912 32.1416 71.3054V87.6388L23.6351 94.4396C22.5937 95.271 21.3895 95.1434 20.5796 94.7387C20.1811 94.5407 19.2854 93.9469 19.2854 92.7548V62.1995C19.2854 60.9854 18.3255 60 17.1427 60Z"
+                        />
+                        <path
+                          d="M53.9123 26.2934L43.4681 37.9089L36.9744 32.3361C36.3885 31.8359 35.431 31.8283 34.839 32.3134C34.241 32.8009 34.2289 33.5992 34.8088 34.0994L42.5348 40.4477C42.8187 40.6953 43.2083 40.5538 43.6161 40.5538C43.6493 40.5538 43.6795 40.5538 43.7127 40.5538C44.1537 40.5538 44.5554 40.622 44.8212 40.329L56.3256 27.6727C56.8269 27.1144 56.694 26.392 56.0266 25.9751C55.3651 25.5533 54.4137 25.7326 53.9123 26.2934Z"
+                        />
+                      </svg>
+
+                      <h3
+                        class="mb-2 text-2xl text-center font-bold leading-tight"
+                      >
+                        Proven
+                      </h3>
+                      <p class="mb-4 text-base text-center">
+                        Our company have more than 15 years of experience in
+                        serving various financial institution.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="flex justify-center">
+                    <div
+                      class="block rounded-lg bg-white hover:bg-secondary text-secondary hover:text-white fill-secondary hover:fill-white ease-in-out duration-700 py-14 lg:py-8 px-6 shadow-lg"
+                    >
+                      <svg
+                        width="100"
+                        height="102"
+                        class="mx-auto my-3"
+                        viewBox="0 0 100 102"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M24.734 40.3761H10.1535C9.04898 40.3708 7.97612 40.7524 7.11431 41.4571C6.25249 42.1618 5.65396 43.1469 5.41876 44.2477C2.44082 57.7844 2.34318 71.8149 5.13243 85.3933L5.4254 86.8255C5.6559 87.9373 6.2531 88.935 7.11741 89.6521C7.98171 90.3691 9.0609 90.7623 10.175 90.7661H24.735C26.0211 90.7645 27.2541 90.2427 28.1635 89.3151C29.073 88.3874 29.5845 87.1297 29.5859 85.8179V45.3241C29.5845 44.0121 29.0728 42.7542 28.1632 41.8266C27.2536 40.899 26.0203 40.3773 24.734 40.3761ZM23.335 84.3911H11.3117L11.2514 84.0948C8.72092 71.7796 8.73143 59.062 11.2822 46.7511H23.335V84.3911Z"
+                        />
+                        <path
+                          d="M96.574 55.2402L92.2596 43.505C91.9191 42.5877 91.3137 41.7974 90.5233 41.2387C89.733 40.68 88.795 40.3792 87.8334 40.3761H64.8437V34.4921L66.7135 30.2687C67.6493 28.155 68.1651 25.8731 68.2313 23.5549C68.2975 21.2367 67.9127 18.928 67.0991 16.7624C66.2855 14.5967 65.0592 12.617 63.4911 10.9375C61.923 9.25806 60.0443 7.91219 57.9633 6.97765C56.8254 6.47225 55.5388 6.44155 54.379 6.89214C53.2193 7.34272 52.2787 8.23874 51.7588 9.38819L36.0728 44.4132V49.4063H40.7078L56.7773 13.5234C59.0458 14.9497 60.7274 17.1698 61.5078 19.7687C62.2882 22.3677 62.114 25.1675 61.0178 27.645L58.8711 32.4942L58.5937 33.8058V43.5636L61.7187 46.7511H86.7773L90.625 57.2156V59.0628L77.3461 82.8674H52.9434L36.0728 72.773V80.164L50.1367 88.5792C50.8623 89.0133 51.6881 89.2423 52.5293 89.2424H78.2324C79.067 89.2415 79.8866 89.0156 80.6081 88.5876C81.3296 88.1596 81.9273 87.5447 82.3408 86.8052L96.2568 61.8574C96.6616 61.1305 96.8746 60.309 96.875 59.473V56.9333C96.8753 56.3551 96.7733 55.7815 96.574 55.2402Z"
+                        />
+                      </svg>
+
+                      <h3
+                        class="mb-2 text-2xl text-center font-bold leading-tight"
+                      >
+                        Reliable
+                      </h3>
+                      <p class="mb-4 text-base text-center">
+                        There are more than 60% BPRS in Indonesia choose our IBA
+                        Product as their Core Banking System.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="flex justify-center">
+                    <div
+                      class="block rounded-lg bg-white hover:bg-orange text-orange lg:hover:bg-secondary lg:text-secondary hover:text-white fill-orange lg:fill-secondary hover:fill-white ease-in-out duration-700 py-14 lg:py-8 px-6 shadow-lg"
+                    >
+                      <svg
+                        width="101"
+                        height="100"
+                        class="mx-auto my-3"
+                        viewBox="0 0 101 100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_5_104)">
+                          <path
+                            d="M41.3125 56.375L29.125 44.1875L23.625 49.75L41.3125 67.4375L46.8125 61.875L76.6875 32.0625L71.125 26.5625L41.3125 56.375Z"
+                          />
+                          <path
+                            d="M50.5 3.125C37.6608 2.73722 25.191 7.45197 15.82 16.2372C6.44912 25.0225 0.940498 37.1625 0.5 50C0.940498 62.8375 6.44912 74.9775 15.82 83.7628C25.191 92.548 37.6608 97.2628 50.5 96.875C63.3392 97.2628 75.809 92.548 85.18 83.7628C94.5509 74.9775 100.06 62.8375 100.5 50C100.06 37.1625 94.5509 25.0225 85.18 16.2372C75.809 7.45197 63.3392 2.73722 50.5 3.125ZM50.5 89.0625C39.7323 89.4515 29.2488 85.5602 21.3428 78.2398C13.4367 70.9194 8.75167 60.7658 8.3125 50C8.75167 39.2343 13.4367 29.0806 21.3428 21.7602C29.2488 14.4398 39.7323 10.5485 50.5 10.9375C61.2677 10.5485 71.7512 14.4398 79.6572 21.7602C87.5633 29.0806 92.2483 39.2343 92.6875 50C92.2483 60.7658 87.5633 70.9194 79.6572 78.2398C71.7512 85.5602 61.2677 89.4515 50.5 89.0625Z"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_5_104">
+                            <rect
+                              width="100"
+                              height="100"
+                              fill="white"
+                              transform="translate(0.5)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <h3
+                        class="mb-2 text-2xl text-center font-bold leading-tight"
+                      >
+                        Ease of access
+                      </h3>
+                      <p class="mb-4 text-base text-center">
+                        Our product is easy to use, and compatible with various
+                        version of Windows operating system.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="flex justify-center">
+                    <div
+                      class="block rounded-lg bg-white hover:bg-secondary text-secondary lg:hover:bg-orange lg:text-orange hover:text-white fill-secondary lg:fill-orange hover:fill-white ease-in-out duration-700 py-14 lg:py-8 px-6 shadow-lg"
+                    >
+                      <svg
+                        width="100"
+                        height="100"
+                        class="mx-auto my-3"
+                        viewBox="0 0 100 100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M50 12.5C40.7604 12.5323 31.8579 15.9746 25 22.1666V12.5C25 11.3949 24.561 10.3351 23.7796 9.5537C22.9982 8.7723 21.9384 8.33331 20.8333 8.33331C19.7283 8.33331 18.6685 8.7723 17.8871 9.5537C17.1057 10.3351 16.6667 11.3949 16.6667 12.5V33.3333C16.6633 34.383 17.0563 35.3952 17.7669 36.1677C18.4776 36.9402 19.4537 37.416 20.5 37.5H41.6667C42.7717 37.5 43.8316 37.061 44.613 36.2796C45.3944 35.4982 45.8333 34.4384 45.8333 33.3333C45.8333 32.2282 45.3944 31.1684 44.613 30.387C43.8316 29.6056 42.7717 29.1666 41.6667 29.1666H29.625C33.7291 25.1598 38.9236 22.4521 44.5586 21.382C50.1936 20.3119 56.019 20.927 61.3062 23.1504C66.5935 25.3738 71.1078 29.1068 74.2845 33.8824C77.4613 38.658 79.1595 44.2643 79.1667 50C79.1667 51.105 79.6057 52.1649 80.3871 52.9463C81.1685 53.7277 82.2283 54.1666 83.3333 54.1666C84.4384 54.1666 85.4982 53.7277 86.2796 52.9463C87.061 52.1649 87.5 51.105 87.5 50C87.5 40.0544 83.5491 30.5161 76.5165 23.4835C69.4839 16.4509 59.9456 12.5 50 12.5Z"
+                        />
+                        <path
+                          d="M79.5 62.5H58.3333C57.2283 62.5 56.1685 62.939 55.3871 63.7204C54.6057 64.5018 54.1667 65.5616 54.1667 66.6666C54.1667 67.7717 54.6057 68.8315 55.3871 69.6129C56.1685 70.3943 57.2283 70.8333 58.3333 70.8333H70.375C66.2709 74.8401 61.0765 77.5479 55.4415 78.618C49.8064 79.6881 43.981 79.0729 38.6938 76.8495C33.4065 74.6261 28.8922 70.8932 25.7155 66.1176C22.5387 61.342 20.8405 55.7357 20.8333 50C20.8333 48.8949 20.3943 47.8351 19.6129 47.0537C18.8315 46.2723 17.7717 45.8333 16.6667 45.8333C15.5616 45.8333 14.5018 46.2723 13.7204 47.0537C12.939 47.8351 12.5 48.8949 12.5 50C12.5226 57.2291 14.6343 64.2975 18.5808 70.3544C22.5273 76.4113 28.1403 81.1983 34.7442 84.1392C41.3481 87.0802 48.6613 88.0496 55.8033 86.9308C62.9453 85.8121 69.6118 82.6528 75 77.8333V87.5C75 88.605 75.439 89.6649 76.2204 90.4463C77.0018 91.2277 78.0616 91.6666 79.1667 91.6666C80.2717 91.6666 81.3315 91.2277 82.1129 90.4463C82.8943 89.6649 83.3333 88.605 83.3333 87.5V66.6666C83.3367 65.617 82.9437 64.6047 82.2331 63.8322C81.5224 63.0597 80.5463 62.5839 79.5 62.5Z"
+                        />
+                      </svg>
+
+                      <h3
+                        class="mb-2 text-2xl text-center font-bold leading-tight"
+                      >
+                        Up to date
+                      </h3>
+                      <p class="mb-4 text-base text-center">
+                        Aside from doing routine system update, our company also
+                        keep up with the latest regulation from OJK.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Profile Section Right End -->
+        </div>
+      </div>
+    </section>
+    <!-- Profile Section End -->
+
+    <!-- Product Section Start -->
+    <section id="product" class="pt-28 pb-8 lg:py-16">
+      <div class="container">
+        <h3
+          class="text-xl font-bold text-secondary text-center mb-4 md:text-2xl lg:mt-20"
+        >
+          Get what you need
+        </h3>
+        <h1
+          class="text-3xl font-bold text-dark text-center mb-4 md:text-5xl lg:mt-3"
+        >
+          Product
+        </h1>
+        <p
+          class="text-base text-slate-700 text-justify lg:text-center mb-4 px-4 md:px-24 md:text-lg lg:mt-3"
+        >
+          Our product give the powerful features and ease of use, it's perfect
+          for your sharia banking business. Plus, our professional team are
+          always available to provide you with outstanding support and service.
+        </p>
+
+        <div class="flex flex-wrap mt-12">
+          <div class="w-full self-center px-4 lg:w-1/3">
+            <div class="flex justify-center">
+              <div class="block max-w-sm rounded-lg bg-secondary shadow-lg">
+                <a href="#!">
+                  <img
+                    class="rounded-t-lg"
+                    src="/img/product.png"
+                    alt="Islamic Banking Application"
+                  />
+                </a>
+                <div class="p-6">
+                  <h3 class="mb-2 text-xl font-bold leading-tight text-white">
+                    <a href="#">CBS Islamic Banking Application (IBA)</a>
+                  </h3>
+                  <p class="mb-4 text-base text-white text-justify">
+                    CBS Islamic Banking Application (IBA) system is
+                    customizable, integrates easily with other systems, and
+                    provides real-time processing and reporting capabilities.
+                  </p>
+                  <!-- <button
+                    type="button"
+                    class="inline-block rounded bg-white px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-secondary shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+                  >
+                    Button
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full self-center px-4 my-9 lg:my-0 lg:w-1/3">
+            <div class="flex justify-center">
+              <div class="block max-w-sm rounded-lg bg-secondary shadow-lg">
+                <a href="#!">
+                  <img
+                    class="rounded-t-lg"
+                    src="/img/product.png"
+                    alt="Islamic Micro Finance Application"
+                  />
+                </a>
+                <div class="p-6">
+                  <h3 class="mb-2 text-xl font-bold leading-tight text-white">
+                    <a href="#">CBS Islamic Micro Finance Application (IMFA)</a>
+                  </h3>
+                  <p class="mb-4 text-base text-white text-justify">
+                    CBS Islamic Micro Finance Application (IMFA) system is
+                    designed to focus on providing financial services to
+                    low-income communities and promoting financial inclusion.
+                  </p>
+                  <!-- <button
+                    type="button"
+                    class="inline-block rounded bg-white px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-secondary shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+                  >
+                    Button
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full self-start px-4 lg:w-1/3">
+            <div class="flex justify-center">
+              <div class="block max-w-sm rounded-lg bg-secondary shadow-lg">
+                <a href="#!">
+                  <img
+                    class="rounded-t-lg"
+                    src="/img/product.png"
+                    alt="Education Application"
+                  />
+                </a>
+                <div class="p-6">
+                  <h3 class="mb-2 text-xl font-bold leading-tight text-white">
+                    <a href="#">Education Application (EDA)</a>
+                  </h3>
+                  <p class="mb-4 text-base text-white text-justify">
+                    Education Application (EDA) is a reliable and user-friendly
+                    solution for educational institutions, offering features and
+                    capabilities to support their daily operations and enhance
+                    the learning experience.
+                  </p>
+                  <!-- <button
+                    type="button"
+                    class="inline-block rounded bg-white px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-secondary shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+                  >
+                    Button
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-28 pb-8 lg:py-16">
+      <div class="container">
+        <h3
+          class="text-xl font-bold text-secondary text-center mb-4 md:text-2xl lg:mt-20"
+        >
+          Get in touch with us
+        </h3>
+        <h1
+          class="text-3xl font-bold text-dark text-center mb-4 md:text-5xl lg:mt-3"
+        >
+          Contact
+        </h1>
+        <p class="text-base text-slate-700 text-center mb-4 md:text-lg lg:mt-3">
+          Contact us today to learn more!
+        </p>
+        <div class="flex flex-wrap mt-6 lg:mt-12">
+          <div class="w-full self-center px-2 lg:px-8 lg:w-1/2">
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2643987029237!2d106.77025731485587!3d-6.488165495306546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c3f149bcd845%3A0xa2e3b773f9d800b8!2sPT%20Mitrasoft%20Global%20Perdana!5e0!3m2!1sid!2sid!4v1677481838569!5m2!1sid!2sid"
+                style="border: 0"
+                width="605"
+                height="400"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="rounded-xl lg:rounded-3xl"
+              ></iframe>
+            </div>
+          </div>
+          <div class="w-full self-center px-6 lg:w-1/2">
+            <h3
+              class="text-lg font-bold text-secondary mb-4 md:text-2xl mt-6 lg:mt-0"
+            >
+              PT Mitrasoft Global Perdana
+            </h3>
+            <p class="text-base text-slate-700 mb-4 md:text-lg">
+              Address: Ruko Pura Bojonggede Jalan Madura I No.34 Kel,
+              Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat.
+              16920.
+            </p>
+            <h3 class="text-lg font-bold text-secondary mb-2 md:text-2xl">
+              Contact us
+            </h3>
+            <div class="flex flex-row self-center">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 33"
+                class="my-2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_18_41)">
+                  <path
+                    d="M29.0017 4.5H2.99828C1.34144 4.5 -0.00172424 5.8431 -0.00172424 7.5V25.5C-0.00172424 27.1569 1.34144 28.5 2.99828 28.5H29.0017C30.6586 28.5 32.0017 27.1569 32.0017 25.5V7.5C32.0017 5.8431 30.6586 4.5 29.0017 4.5ZM31.0017 25.0554L21.5423 15.596L31.0017 9.5682V25.0554ZM2.99828 5.5H29.0017C30.1045 5.5 31.0017 6.39715 31.0017 7.5V8.3832L17.2339 17.1567C16.4888 17.6313 15.5371 17.6167 14.8091 17.1215L0.998276 7.73475V7.5C0.998276 6.39715 1.89553 5.5 2.99828 5.5ZM0.998276 8.9426L10.5911 15.4626L0.998276 25.0554V8.9426ZM29.0017 27.5H2.99828C2.17458 27.5 1.46633 26.9989 1.16023 26.2861L11.4202 16.026L14.2476 17.9478C14.7905 18.3169 15.4185 18.5019 16.0474 18.5019C16.645 18.5019 17.2436 18.3349 17.7705 17.9995L20.6917 16.138L30.8398 26.2861C30.5337 26.9989 29.8254 27.5 29.0017 27.5Z"
+                    fill="#167CC8"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_18_41">
+                    <rect
+                      width="32"
+                      height="32"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p
+                class="text-base text-slate-700 self-center mx-4 my-2 md:text-lg"
+              >
+                <a href="mailto:admin@mitrasoft.com">admin@mitrasoft.com</a>
+              </p>
+            </div>
+
+            <div class="flex flex-row self-center">
+              <svg
+                width="30"
+                height="30"
+                class="my-2"
+                viewBox="0 0 24 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M23.1872 17.9759C23.1338 17.6456 22.9267 17.3634 22.6166 17.1957L18.0294 14.493L17.9917 14.4719C17.8064 14.3768 17.592 14.3279 17.3718 14.3279C16.9875 14.3279 16.6205 14.4735 16.3658 14.7288L15.0118 16.0834C14.9539 16.1384 14.7651 16.2181 14.7078 16.221C14.6922 16.2197 13.1325 16.1074 10.2611 13.2357C7.39488 10.3701 7.27328 8.80562 7.27232 8.80562C7.27392 8.72562 7.35264 8.53746 7.40864 8.47922L8.5632 7.32498C8.96992 6.9173 9.09184 6.24146 8.85056 5.71794L6.3008 0.920183C6.11552 0.538742 5.75552 0.303223 5.35616 0.303223C5.0736 0.303223 4.80096 0.420343 4.58784 0.633143L1.44064 3.7733C1.13888 4.07346 0.879043 4.59826 0.822403 5.02066C0.794883 5.22258 0.236483 10.0424 6.84448 16.6514C12.4544 22.2607 16.8288 22.6965 18.0368 22.6965C18.2966 22.6965 18.448 22.6779 18.4771 22.6738C18.8982 22.6175 19.4224 22.3583 19.7222 22.0578L22.8669 18.9135C23.1235 18.6555 23.2406 18.3147 23.1872 17.9759Z"
+                  fill="#167CC8"
+                />
+              </svg>
+              <p
+                class="text-base text-slate-700 self-center mx-4 my-2 md:text-lg"
+              >
+                +62 812-8334-6263
+              </p>
+            </div>
+
+            <div class="flex flex-row self-center my-4">
+              <a href="https://www.instagram.com/mitrasoft/"
+                ><svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_18_50)">
+                    <path
+                      d="M16 0.5C11.6533 0.5 11.1107 0.52 9.404 0.596C7.7 0.676 6.54 0.944 5.52 1.34C4.468 1.748 3.57467 2.296 2.68533 3.18533C1.796 4.07467 1.24667 4.96667 0.84 6.02C0.444 7.04 0.174667 8.2 0.096 9.904C0.016 11.6107 0 12.1533 0 16.5C0 20.8467 0.02 21.3893 0.096 23.096C0.176 24.7987 0.444 25.96 0.84 26.98C1.248 28.0307 1.796 28.9253 2.68533 29.8147C3.57467 30.7027 4.46667 31.2533 5.52 31.66C6.54133 32.0547 7.70133 32.3253 9.404 32.404C11.1107 32.484 11.6533 32.5 16 32.5C20.3467 32.5 20.8893 32.48 22.596 32.404C24.2987 32.324 25.46 32.0547 26.48 31.66C27.5307 31.252 28.4253 30.7027 29.3147 29.8147C30.2027 28.9253 30.7533 28.0347 31.16 26.98C31.5547 25.96 31.8253 24.7987 31.904 23.096C31.984 21.3893 32 20.8467 32 16.5C32 12.1533 31.98 11.6107 31.904 9.904C31.824 8.20133 31.5547 7.03867 31.16 6.02C30.752 4.968 30.2027 4.07467 29.3147 3.18533C28.4253 2.296 27.5347 1.74667 26.48 1.34C25.46 0.944 24.2987 0.674667 22.596 0.596C20.8893 0.516 20.3467 0.5 16 0.5ZM16 3.38C20.2707 3.38 20.78 3.40133 22.4667 3.47467C24.0267 3.548 24.8733 3.80667 25.436 4.028C26.1853 4.31733 26.716 4.664 27.2787 5.22267C27.8373 5.78267 28.184 6.31467 28.4733 7.064C28.692 7.62667 28.9533 8.47333 29.024 10.0333C29.1 11.7213 29.1173 12.228 29.1173 16.5C29.1173 20.772 29.0973 21.28 29.0187 22.9667C28.9373 24.5267 28.6773 25.3733 28.4573 25.936C28.1587 26.6853 27.8187 27.216 27.2587 27.7787C26.7 28.3373 26.16 28.684 25.4187 28.9733C24.8587 29.192 23.9987 29.4533 22.4387 29.524C20.74 29.6 20.24 29.6173 15.96 29.6173C11.6787 29.6173 11.1787 29.5973 9.48133 29.5187C7.92 29.4373 7.06 29.1773 6.5 28.9573C5.74133 28.6587 5.22 28.3187 4.66133 27.7587C4.1 27.2 3.74133 26.66 3.46133 25.9187C3.24133 25.3587 2.98267 24.4987 2.90133 22.9387C2.84133 21.2587 2.82 20.74 2.82 16.48C2.82 12.2187 2.84133 11.6987 2.90133 9.99867C2.98267 8.43867 3.24133 7.58 3.46133 7.02C3.74133 6.26 4.1 5.74 4.66133 5.17867C5.22 4.62 5.74133 4.26 6.5 3.98133C7.06 3.76 7.90133 3.5 9.46133 3.42C11.1613 3.36 11.6613 3.34 15.94 3.34L16 3.38ZM16 8.284C11.46 8.284 7.784 11.964 7.784 16.5C7.784 21.04 11.464 24.716 16 24.716C20.54 24.716 24.216 21.036 24.216 16.5C24.216 11.96 20.536 8.284 16 8.284ZM16 21.8333C13.0533 21.8333 10.6667 19.4467 10.6667 16.5C10.6667 13.5533 13.0533 11.1667 16 11.1667C18.9467 11.1667 21.3333 13.5533 21.3333 16.5C21.3333 19.4467 18.9467 21.8333 16 21.8333ZM26.4613 7.96C26.4613 9.02 25.6 9.88 24.5413 9.88C23.4813 9.88 22.6213 9.01867 22.6213 7.96C22.6213 6.90133 23.4827 6.04133 24.5413 6.04133C25.5987 6.04 26.4613 6.90133 26.4613 7.96Z"
+                      fill="#167CC8"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_18_50">
+                      <rect
+                        width="32"
+                        height="32"
+                        fill="white"
+                        transform="translate(0 0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/company/mitrasoft/">
+                <svg
+                  width="32"
+                  height="32"
+                  class="ml-8"
+                  viewBox="0 0 32 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M27.2627 27.7693H22.524V20.344C22.524 18.5733 22.488 16.2947 20.0547 16.2947C17.584 16.2947 17.2067 18.2213 17.2067 20.2133V27.7693H12.468V12.5H17.02V14.5813H17.0813C17.7173 13.3813 19.264 12.1147 21.5747 12.1147C26.376 12.1147 27.264 15.2747 27.264 19.388L27.2627 27.7693ZM7.116 10.4107C5.59067 10.4107 4.36533 9.176 4.36533 7.65733C4.36533 6.14 5.592 4.90667 7.116 4.90667C8.636 4.90667 9.868 6.14 9.868 7.65733C9.868 9.176 8.63467 10.4107 7.116 10.4107ZM9.492 27.7693H4.74V12.5H9.492V27.7693ZM29.6333 0.5H2.36133C1.056 0.5 0 1.532 0 2.80533V30.1947C0 31.4693 1.056 32.5 2.36133 32.5H29.6293C30.9333 32.5 32 31.4693 32 30.1947V2.80533C32 1.532 30.9333 0.5 29.6293 0.5H29.6333Z"
+                    fill="#167CC8"
+                  />
+                </svg>
+              </a>
+              <a href="facebook.com">
+                <svg
+                  width="32"
+                  height="33"
+                  class="ml-8"
+                  viewBox="0 0 32 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M32 16.5974C32 7.76141 24.836 0.597412 16 0.597412C7.164 0.597412 0 7.76141 0 16.5974C0 24.5841 5.85067 31.2027 13.5 32.4027V21.2227H9.43733V16.5961H13.5V13.0734C13.5 9.06408 15.8893 6.84808 19.544 6.84808C21.2933 6.84808 23.1253 7.16141 23.1253 7.16141V11.0987H21.1067C19.1187 11.0987 18.4987 12.3321 18.4987 13.5974V16.5974H22.936L22.2267 21.2241H18.4987V32.4041C26.1493 31.2027 32 24.5827 32 16.5974Z"
+                    fill="#167CC8"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-28 pb-8 lg:py-16">
+      <div class="container">
+        <h3
+          class="text-xl font-bold text-secondary text-center mb-4 md:text-2xl lg:mt-20"
+        >
+          Get to know us
+        </h3>
+        <h1
+          class="text-3xl font-bold text-dark text-center mb-4 md:text-5xl lg:mt-3"
+        >
+          About
+        </h1>
+        <p
+          class="text-base text-dark text-center mb-4 md:text-lg lg:mt-3 px-4 md:px-0"
+        >
+          We Make IT Better We Make IT Easy We Make IT Affordables
+        </p>
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-2 lg:px-8 lg:w-1/2">
+            <h2
+              class="text-xl font-bold text-dark mt-4 mb-4 text-justify md:text-3xl lg:mt-14 px-4 md:px-0"
+            >
+              Digitalize sharia banking in Indonesia
+            </h2>
+            <p
+              class="text-base text-dark text-justify lg:text-left md:text-lg lg:mt-3 px-4 md:px-0"
+            >
+              Our IT consulting company provides the best technology solutions
+              for your business needs. With over 15 years of experience in
+              delivering innovative and effective IT consultant services, we
+              have provide to more than 60% BPRS in Indonesia. Our dedicated
+              team of experts, supported by the latest technology and the latest
+              regulation from OJK, will provide you with the best IT solutions
+              for your business needs.
+            </p>
+          </div>
+          <div class="w-full self-center px-2 lg:px-8 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-20 lg:right-0">
+              <img
+                src="/img/about.png"
+                alt="Home Vector"
+                class="max-w-full mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Event Section Start -->
+    <section id="event" class="pt-28 pb-14 lg:py-16">
+      <div class="container">
+        <h3
+          class="text-xl font-bold text-secondary text-center mb-4 md:text-2xl lg:mt-20"
+        >
+          Follow new update
+        </h3>
+        <h1
+          class="text-3xl font-bold text-dark text-center mb-4 md:text-5xl lg:mt-3"
+        >
+          Event
+        </h1>
+        <p class="text-base text-slate-700 text-center mb-4 md:text-lg lg:mt-3">
+          Stay informed about our past events
+        </p>
+        <div class="w-full justify-center px-4">
+          <!-- component -->
+
+          <div
+            x-data="imageSlider"
+            class="relative mx-auto max-w-lg overflow-hidden rounded-md bg-gray-100 p-2 sm:p-4 mt-9 mb-7"
+          >
+            <div
+              class="absolute top-5 right-0 z-10 rounded-full bg-gray-600 px-2 text-center text-sm text-white"
+            >
+              <span x-text="currentIndex"></span>/<span
+                x-text="images.length"
+              ></span>
+            </div>
+
+            <button
+              @click="previous()"
+              class="absolute left-5 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md"
+            >
+              <svg
+                class="h-8 w-8 font-bold text-gray-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M15 19l-7-7 7-7"
+                ></path>
+              </svg>
+            </button>
+
+            <button
+              @click="forward()"
+              class="absolute right-5 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md"
+            >
+              <svg
+                class="h-8 w-8 font-bold text-gray-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </button>
+
+            <div class="relative h-80" style="width: 30rem">
+              <template x-for="(image, index) in images">
+                <div
+                  x-show="currentIndex == index + 1"
+                  x-transition:enter="transition transform duration-300"
+                  x-transition:enter-start="opacity-0"
+                  x-transition:enter-end="opacity-100"
+                  x-transition:leave="transition transform duration-300"
+                  x-transition:leave-start="opacity-100"
+                  x-transition:leave-end="opacity-0"
+                  class="absolute top-0"
+                >
+                  <img :src="image" alt="image" class="rounded-sm" />
+                </div>
+              </template>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <button
+            class="bg-white py-2 px-4 border-2 border-secondary rounded-lg text-secondary my-4 hover:bg-secondary hover:text-white hover:fill-white"
+          >
+            <p>Read More</p>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Event Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-slate-700 pt-12 pb-9 lg:py-16">
+      <div class="container">
+        <div class="flex flex-wrap lg:justify-between mb-6">
+          <div class="w-full self-center px-4 lg:px-0 lg:w-1/3">
+            <img src="/img/logo white.png" alt="logo" />
+            <h3 class="text-lg font-bold text-white my-4 md:text-2xl lg:my-6">
+              PT Mitrasoft Global Perdana
+            </h3>
+            <p class="text-sm text-white mb-4 md:text-base lg:mt-6">
+              Address: Ruko Pura Bojonggede Jalan Madura I No.34 Kel,
+              Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat.
+              16920.
+            </p>
+          </div>
+          <div class="w-full self-start justify-center px-4 lg:px-40 lg:w-1/3">
+            <h3 class="text-lg font-bold text-white mb-4 md:text-2xl lg:mb-6">
+              Menu
+            </h3>
+            <a href="#product"
+              ><p class="text-sm text-white my-2 md:text-base lg:my-4">
+                Product
+              </p></a
+            >
+            <a href="#contact"
+              ><p class="text-sm text-white my-2 md:text-base lg:my-4">
+                Contact
+              </p></a
+            >
+            <a href="#about"
+              ><p class="text-sm text-white my-2 md:text-base lg:my-4">
+                About
+              </p></a
+            >
+            <a href="#event"
+              ><p class="text-sm text-white my-2 md:text-base lg:my-4">
+                Event
+              </p></a
+            >
+          </div>
+          <div class="w-full self-start px-4 lg:px-16 lg:w-1/3">
+            <h3
+              class="text-lg font-bold text-white my-2 md:text-2xl md:my-0 md:mb-6"
+            >
+              Contact
+            </h3>
+            <div class="flex flex-row self-start">
+              <svg
+                width="24"
+                height="24"
+                class="self-center"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_2_47)">
+                  <path
+                    d="M21.7513 3H2.24872C1.00609 3 -0.00128174 4.00733 -0.00128174 5.25V18.75C-0.00128174 19.9926 1.00609 21 2.24872 21H21.7513C22.9939 21 24.0013 19.9926 24.0013 18.75V5.25C24.0013 4.00733 22.9939 3 21.7513 3ZM23.2513 18.4166L16.1567 11.322L23.2513 6.80115V18.4166ZM2.24872 3.75H21.7513C22.5784 3.75 23.2513 4.42286 23.2513 5.25V5.9124L12.9254 12.4925C12.3666 12.8485 11.6529 12.8375 11.1068 12.4662L0.748718 5.42606V5.25C0.748718 4.42286 1.42166 3.75 2.24872 3.75ZM0.748718 6.33195L7.94336 11.2219L0.748718 18.4166V6.33195ZM21.7513 20.25H2.24872C1.63094 20.25 1.09976 19.8742 0.870181 19.3395L8.56514 11.6445L10.6857 13.0858C11.0929 13.3627 11.5639 13.5015 12.0355 13.5015C12.4838 13.5015 12.9327 13.3762 13.3279 13.1246L15.5188 11.7285L23.1298 19.3395C22.9003 19.8742 22.3691 20.25 21.7513 20.25Z"
+                    fill="#FEFEFE"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_47">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm text-white mx-4 my-2 md:text-base lg:my-0">
+                <a href="mailto:admin@mitrasoft.com">admin@mitrasoft.com</a>
+              </p>
+            </div>
+
+            <div class="flex flex-row self-start">
+              <svg
+                width="24"
+                height="24"
+                class="self-center"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.9875 19.3623C22.9351 19.0378 22.7317 18.7605 22.4272 18.5958L17.9219 15.9406L17.8848 15.9198C17.7028 15.8264 17.4922 15.7783 17.276 15.7783C16.8986 15.7783 16.5381 15.9214 16.2879 16.1723L14.9582 17.503C14.9013 17.5571 14.7158 17.6354 14.6596 17.6382C14.6442 17.6369 13.1123 17.5266 10.2923 14.7054C7.47719 11.8901 7.35776 10.3531 7.35681 10.3531C7.35839 10.2745 7.4357 10.0896 7.4907 10.0324L8.62465 8.89844C9.0241 8.49792 9.14385 7.83395 8.90688 7.31962L6.40264 2.60612C6.22067 2.23138 5.8671 2 5.47487 2C5.19735 2 4.92958 2.11506 4.72026 2.32413L1.62925 5.40914C1.33288 5.70403 1.07768 6.21961 1.02205 6.63459C0.995024 6.83296 0.446593 11.5682 6.93661 18.061C12.4464 23.5718 16.7427 24 17.9291 24C18.1843 24 18.333 23.9818 18.3616 23.9777C18.7752 23.9223 19.29 23.6677 19.5845 23.3725L22.6729 20.2834C22.925 20.03 23.04 19.6952 22.9875 19.3623Z"
+                  fill="#FEFEFE"
+                />
+              </svg>
+
+              <p class="text-sm text-white mx-4 my-2 md:text-base lg:my-4">
+                +62 812-8334-6263
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full border-t border-slate-200">
+          <div
+            class="flex flex-wrap justify-center lg:justify-between mt-6 lg:mt-8"
+          >
+            <p class="text-base text-white lg:text-left">
+              Copyright © 2023 PT Mitrasoft Global Perdana
+            </p>
+            <div class="hidden lg:flex lg:flex-row">
+              <a href="https://www.instagram.com/mitrasoft/"
+                ><svg" ><svg
+                  width="24"
+                  height="24"
+                  class="ml-6"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_124_15)">
+                    <path
+                      d="M12 0C8.74 0 8.333 0.015 7.053 0.072C5.775 0.132 4.905 0.333 4.14 0.63C3.351 0.936 2.681 1.347 2.014 2.014C1.347 2.681 0.935 3.35 0.63 4.14C0.333 4.905 0.131 5.775 0.072 7.053C0.012 8.333 0 8.74 0 12C0 15.26 0.015 15.667 0.072 16.947C0.132 18.224 0.333 19.095 0.63 19.86C0.936 20.648 1.347 21.319 2.014 21.986C2.681 22.652 3.35 23.065 4.14 23.37C4.906 23.666 5.776 23.869 7.053 23.928C8.333 23.988 8.74 24 12 24C15.26 24 15.667 23.985 16.947 23.928C18.224 23.868 19.095 23.666 19.86 23.37C20.648 23.064 21.319 22.652 21.986 21.986C22.652 21.319 23.065 20.651 23.37 19.86C23.666 19.095 23.869 18.224 23.928 16.947C23.988 15.667 24 15.26 24 12C24 8.74 23.985 8.333 23.928 7.053C23.868 5.776 23.666 4.904 23.37 4.14C23.064 3.351 22.652 2.681 21.986 2.014C21.319 1.347 20.651 0.935 19.86 0.63C19.095 0.333 18.224 0.131 16.947 0.072C15.667 0.012 15.26 0 12 0ZM12 2.16C15.203 2.16 15.585 2.176 16.85 2.231C18.02 2.286 18.655 2.48 19.077 2.646C19.639 2.863 20.037 3.123 20.459 3.542C20.878 3.962 21.138 4.361 21.355 4.923C21.519 5.345 21.715 5.98 21.768 7.15C21.825 8.416 21.838 8.796 21.838 12C21.838 15.204 21.823 15.585 21.764 16.85C21.703 18.02 21.508 18.655 21.343 19.077C21.119 19.639 20.864 20.037 20.444 20.459C20.025 20.878 19.62 21.138 19.064 21.355C18.644 21.519 17.999 21.715 16.829 21.768C15.555 21.825 15.18 21.838 11.97 21.838C8.759 21.838 8.384 21.823 7.111 21.764C5.94 21.703 5.295 21.508 4.875 21.343C4.306 21.119 3.915 20.864 3.496 20.444C3.075 20.025 2.806 19.62 2.596 19.064C2.431 18.644 2.237 17.999 2.176 16.829C2.131 15.569 2.115 15.18 2.115 11.985C2.115 8.789 2.131 8.399 2.176 7.124C2.237 5.954 2.431 5.31 2.596 4.89C2.806 4.32 3.075 3.93 3.496 3.509C3.915 3.09 4.306 2.82 4.875 2.611C5.295 2.445 5.926 2.25 7.096 2.19C8.371 2.145 8.746 2.13 11.955 2.13L12 2.16ZM12 5.838C8.595 5.838 5.838 8.598 5.838 12C5.838 15.405 8.598 18.162 12 18.162C15.405 18.162 18.162 15.402 18.162 12C18.162 8.595 15.402 5.838 12 5.838ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16ZM19.846 5.595C19.846 6.39 19.2 7.035 18.406 7.035C17.611 7.035 16.966 6.389 16.966 5.595C16.966 4.801 17.612 4.156 18.406 4.156C19.199 4.155 19.846 4.801 19.846 5.595Z"
+                      fill="#FEFEFE"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_124_15">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/company/mitrasoft/"
+                ><svg
+                  width="24"
+                  height="24"
+                  class="ml-6"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_124_17)">
+                    <path
+                      d="M20.447 20.452H16.893V14.883C16.893 13.555 16.866 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.166L20.447 20.452ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.368C3.274 4.23 4.194 3.305 5.337 3.305C6.477 3.305 7.401 4.23 7.401 5.368C7.401 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452ZM22.225 0H1.771C0.792 0 0 0.774 0 1.729V22.271C0 23.227 0.792 24 1.771 24H22.222C23.2 24 24 23.227 24 22.271V1.729C24 0.774 23.2 0 22.222 0H22.225Z"
+                      fill="#FEFEFE"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_124_17">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href=""
+                ><svg
+                  width="24"
+                  height="25"
+                  class="ml-6"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24 12.1701C24 5.50283 18.627 0.097168 12 0.097168C5.373 0.097168 0 5.50283 0 12.1701C0 18.1965 4.388 23.1907 10.125 24.0962V15.6602H7.078V12.1691H10.125V9.51104C10.125 6.48577 11.917 4.81366 14.658 4.81366C15.97 4.81366 17.344 5.05009 17.344 5.05009V8.02104H15.83C14.339 8.02104 13.874 8.95166 13.874 9.90643V12.1701H17.202L16.67 15.6612H13.874V24.0972C19.612 23.1907 24 18.1955 24 12.1701Z"
+                    fill="#FEFEFE"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="/script.js"></script>
+  </body>
+</html>
